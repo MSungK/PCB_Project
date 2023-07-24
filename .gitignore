@@ -1,5 +1,5 @@
-dataset/
-run/
+datasets/
+runs/
 *.jpg
 *.ipynb
 *.pt
