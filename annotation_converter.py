@@ -74,7 +74,6 @@ if __name__ == '__main__':
                     file_name = osp.splitext(file)[0]
 
                     test_name = file_name + '_test.txt'
-                    temp_name = file_name + '_temp.txt'
 
                     f = open(osp.join(out, test_name), 'w')
 
@@ -85,10 +84,6 @@ if __name__ == '__main__':
                         f.write(label)
                     f.close()
 
-                    f = open(osp.join(out, temp_name), 'w')
-                    f.write('\n')
-                    f.close()
-
             else:
                 img_path = osp.join(dir_path, sub_dir)
                 files = os.listdir(img_path)
@@ -96,7 +91,9 @@ if __name__ == '__main__':
                 for file in files:
                     file_path = osp.join(img_path, file)
                     check_path = file_path[:file_path.find('_')]
-
+                    normal = file[file.find('_')+1 : file.find('.')]
+                    if normal != 'test':
+                        continue
                     if check_path in is_train:
                         out = train_img_path
                         train_img += 1

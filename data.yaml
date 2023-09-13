@@ -1,6 +1,0 @@
-train: /workspace/minsung/yolov8/datasets/DeepPCB/train/images
-val: /workspace/minsung/yolov8/datasets/DeepPCB/train/images
-test: /workspace/minsung/yolov8/datasets/DeepPCB/test/images
-
-nc: 6
-names: ['1', '2', '3', '4', '5', '6']
