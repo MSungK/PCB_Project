@@ -1,0 +1,220 @@
+{
+    "os": "Linux-4.15.0-197-generic-x86_64-with-glibc2.17",
+    "python": "3.8.18",
+    "heartbeatAt": "2023-10-16T15:24:30.330917",
+    "startedAt": "2023-10-16T15:24:30.040556",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/workspace/Minsung/PCB_Project/train.py",
+    "codePathLocal": "train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/MSungK/PCB_Project.git",
+        "commit": "9f2f9371235c6f0c9b4d7d18f21f393d43b054b7"
+    },
+    "email": "ambushe1801@gmial.com",
+    "root": "/workspace/Minsung/PCB_Project",
+    "host": "6469a55cf14a",
+    "username": "root",
+    "executable": "/opt/conda/envs/minsung/bin/python",
+    "cpu_count": 16,
+    "cpu_count_logical": 32,
+    "cpu_freq": {
+        "current": 915.8724062499998,
+        "min": 800.0,
+        "max": 3000.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 800.001,
+            "min": 800.0,
+            "max": 3000.0
+        },
+        {
+            "current": 800.015,
+            "min": 800.0,
+            "max": 3000.0
+        },
+        {
+            "current": 799.878,
+            "min": 800.0,
+            "max": 3000.0
+        },
+        {
+            "current": 853.245,
+            "min": 800.0,
+            "max": 3000.0
+        },
+        {
+            "current": 799.946,
+            "min": 800.0,
+            "max": 3000.0
+        },
+        {
+            "current": 801.976,
+            "min": 800.0,
+            "max": 3000.0
+        },
+        {
+            "current": 801.955,
+            "min": 800.0,
+            "max": 3000.0
+        },
+        {
+            "current": 800.341,
+            "min": 800.0,
+            "max": 3000.0
+        },
+        {
+            "current": 800.373,
+            "min": 800.0,
+            "max": 3000.0
+        },
+        {
+            "current": 799.876,
+            "min": 800.0,
+            "max": 3000.0
+        },
+        {
+            "current": 797.58,
+            "min": 800.0,
+            "max": 3000.0
+        },
+        {
+            "current": 797.929,
+            "min": 800.0,
+            "max": 3000.0
+        },
+        {
+            "current": 802.025,
+            "min": 800.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1086.663,
+            "min": 800.0,
+            "max": 3000.0
+        },
+        {
+            "current": 2173.658,
+            "min": 800.0,
+            "max": 3000.0
+        },
+        {
+            "current": 2399.999,
+            "min": 800.0,
+            "max": 3000.0
+        },
+        {
+            "current": 799.817,
+            "min": 800.0,
+            "max": 3000.0
+        },
+        {
+            "current": 799.271,
+            "min": 800.0,
+            "max": 3000.0
+        },
+        {
+            "current": 799.782,
+            "min": 800.0,
+            "max": 3000.0
+        },
+        {
+            "current": 824.963,
+            "min": 800.0,
+            "max": 3000.0
+        },
+        {
+            "current": 798.974,
+            "min": 800.0,
+            "max": 3000.0
+        },
+        {
+            "current": 800.2,
+            "min": 800.0,
+            "max": 3000.0
+        },
+        {
+            "current": 801.937,
+            "min": 800.0,
+            "max": 3000.0
+        },
+        {
+            "current": 800.214,
+            "min": 800.0,
+            "max": 3000.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 3000.0
+        },
+        {
+            "current": 801.097,
+            "min": 800.0,
+            "max": 3000.0
+        },
+        {
+            "current": 802.489,
+            "min": 800.0,
+            "max": 3000.0
+        },
+        {
+            "current": 802.782,
+            "min": 800.0,
+            "max": 3000.0
+        },
+        {
+            "current": 800.198,
+            "min": 800.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1068.216,
+            "min": 800.0,
+            "max": 3000.0
+        },
+        {
+            "current": 2000.233,
+            "min": 800.0,
+            "max": 3000.0
+        },
+        {
+            "current": 2393.428,
+            "min": 800.0,
+            "max": 3000.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 878.1540870666504,
+            "used": 826.845458984375
+        }
+    },
+    "gpu": "Tesla T4",
+    "gpu_count": 4,
+    "gpu_devices": [
+        {
+            "name": "Tesla T4",
+            "memory_total": 15843721216
+        },
+        {
+            "name": "Tesla T4",
+            "memory_total": 15843721216
+        },
+        {
+            "name": "Tesla T4",
+            "memory_total": 15843721216
+        },
+        {
+            "name": "Tesla T4",
+            "memory_total": 15843721216
+        }
+    ],
+    "memory": {
+        "total": 314.56127166748047
+    }
+}

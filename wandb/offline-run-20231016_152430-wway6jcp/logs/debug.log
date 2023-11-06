@@ -1,0 +1,26 @@
+2023-10-16 15:24:30,046 INFO    MainThread:5714 [wandb_setup.py:_flush():76] Current SDK version is 0.15.10
+2023-10-16 15:24:30,046 INFO    MainThread:5714 [wandb_setup.py:_flush():76] Configure stats pid to 5714
+2023-10-16 15:24:30,046 INFO    MainThread:5714 [wandb_setup.py:_flush():76] Loading settings from /root/.config/wandb/settings
+2023-10-16 15:24:30,046 INFO    MainThread:5714 [wandb_setup.py:_flush():76] Loading settings from /workspace/Minsung/PCB_Project/wandb/settings
+2023-10-16 15:24:30,046 INFO    MainThread:5714 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-10-16 15:24:30,047 INFO    MainThread:5714 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-10-16 15:24:30,047 INFO    MainThread:5714 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program': '/workspace/Minsung/PCB_Project/train.py'}
+2023-10-16 15:24:30,047 INFO    MainThread:5714 [wandb_setup.py:_flush():76] Applying login settings: {'mode': 'offline'}
+2023-10-16 15:24:30,047 INFO    MainThread:5714 [wandb_init.py:_log_setup():524] Logging user logs to /workspace/Minsung/PCB_Project/wandb/offline-run-20231016_152430-wway6jcp/logs/debug.log
+2023-10-16 15:24:30,047 INFO    MainThread:5714 [wandb_init.py:_log_setup():525] Logging internal logs to /workspace/Minsung/PCB_Project/wandb/offline-run-20231016_152430-wway6jcp/logs/debug-internal.log
+2023-10-16 15:24:30,048 INFO    MainThread:5714 [wandb_init.py:init():564] calling init triggers
+2023-10-16 15:24:30,048 INFO    MainThread:5714 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {'task': 'detect', 'mode': 'train', 'model': 'yolov8m.pt', 'data': '/workspace/Minsung/PCB_Project/minji2/data.yaml', 'epochs': 500, 'patience': 30, 'batch': 64, 'imgsz': 640, 'save': True, 'save_period': 30, 'cache': False, 'device': [0, 1], 'workers': 4, 'project': None, 'name': None, 'exist_ok': False, 'pretrained': True, 'optimizer': 'AdamW', 'verbose': True, 'seed': 0, 'deterministic': True, 'single_cls': False, 'rect': False, 'cos_lr': False, 'close_mosaic': 10, 'resume': False, 'amp': True, 'fraction': 1.0, 'profile': False, 'freeze': None, 'overlap_mask': True, 'mask_ratio': 4, 'dropout': 0.0, 'val': True, 'split': 'val', 'save_json': False, 'save_hybrid': False, 'conf': None, 'iou': 0.7, 'max_det': 300, 'half': False, 'dnn': False, 'plots': True, 'source': None, 'show': False, 'save_txt': False, 'save_conf': False, 'save_crop': False, 'show_labels': True, 'show_conf': True, 'vid_stride': 1, 'stream_buffer': False, 'line_width': None, 'visualize': False, 'augment': False, 'agnostic_nms': False, 'classes': None, 'retina_masks': False, 'boxes': True, 'format': 'torchscript', 'keras': False, 'optimize': False, 'int8': False, 'dynamic': False, 'simplify': False, 'opset': None, 'workspace': 4, 'nms': False, 'lr0': 0.0001, 'lrf': 0.01, 'momentum': 0.937, 'weight_decay': 0.0001, 'warmup_epochs': 3.0, 'warmup_momentum': 0.8, 'warmup_bias_lr': 0.1, 'box': 7.5, 'cls': 0.5, 'dfl': 1.5, 'pose': 12.0, 'kobj': 1.0, 'label_smoothing': 0.0, 'nbs': 64, 'hsv_h': 0.015, 'hsv_s': 0.7, 'hsv_v': 0.4, 'degrees': 0.0, 'translate': 0.1, 'scale': 0.5, 'shear': 0.0, 'perspective': 0.0, 'flipud': 0.0, 'fliplr': 0.5, 'mosaic': 1.0, 'mixup': 0.2, 'copy_paste': 0.0, 'cfg': None, 'tracker': 'botsort.yaml', 'save_dir': 'runs/detect/train'}
+2023-10-16 15:24:30,048 INFO    MainThread:5714 [wandb_init.py:init():614] starting backend
+2023-10-16 15:24:30,048 INFO    MainThread:5714 [wandb_init.py:init():618] setting up manager
+2023-10-16 15:24:30,052 INFO    MainThread:5714 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-10-16 15:24:30,054 INFO    MainThread:5714 [wandb_init.py:init():624] backend started and connected
+2023-10-16 15:24:30,064 INFO    MainThread:5714 [wandb_init.py:init():715] updated telemetry
+2023-10-16 15:24:30,174 INFO    MainThread:5714 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2023-10-16 15:24:30,196 INFO    MainThread:5714 [wandb_init.py:init():799] starting run threads in backend
+2023-10-16 15:24:40,177 INFO    MainThread:5714 [wandb_run.py:_console_start():2199] atexit reg
+2023-10-16 15:24:40,178 INFO    MainThread:5714 [wandb_run.py:_redirect():2054] redirect: wrap_raw
+2023-10-16 15:24:40,178 INFO    MainThread:5714 [wandb_run.py:_redirect():2119] Wrapping output streams.
+2023-10-16 15:24:40,178 INFO    MainThread:5714 [wandb_run.py:_redirect():2144] Redirects installed.
+2023-10-16 15:24:40,180 INFO    MainThread:5714 [wandb_init.py:init():840] run started, returning control to user process
+2023-10-16 15:27:12,739 WARNING MsgRouterThr:5714 [router.py:message_loop():77] message_loop has been closed
